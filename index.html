@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bar Filler</title>
+
+    <script type="text/javascript" src="lib/ext/jquery-3.1.0.min.js"></script>
+
+    <script type="text/javascript" src="lib/bar_filler.js"></script>
+
+    <script type="text/javascript" src="lib/data/customers.js"></script>
+    <script type="text/javascript" src="lib/data/drinks.js"></script>
+    <script type="text/javascript" src="lib/data/expenses.js"></script>
+    <script type="text/javascript" src="lib/data/sources.js"></script>
+
+    <script type="text/javascript" src="lib/renderers/bar.js"></script>
+
+    <script type="text/javascript" src="lib/entities/dummy_source.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style/bar_filler.css"/>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        BarFiller.init();
+        BarFiller.start();
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Bar Filler</h1>
+    <div id="bar_filler"></div>
+    <br clear="both"/>
+    <div id="bar_filler2"></div>
+  </body>
+</html>
