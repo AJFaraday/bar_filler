@@ -3,11 +3,14 @@ h1 {
   line-height: 0px;
 }
 
+/* bars */
+
 div.bar_holder {
   position: relative;
   width: 30px;
   height: 100px;
   border: 2px solid black;
+  border-width: 0 2px 2px 2px;
   float: left;
   margin: 2px;
   -webkit-user-select: none;
@@ -34,6 +37,8 @@ div.inner_bar {
   position: relative;
 }
 
+/* money */
+
 div.money_section {
   position: relative;
   float: left;
@@ -47,4 +52,24 @@ div.money_readout {
 
 div.money_readout.low {
   color: red;
+}
+
+/* drinks */
+
+div.drink_section {
+  position: relative;
+  width: 50%;
+  background-color: lightgreen;
+  overflow: auto;
+  padding: 10px;
+}
+
+h2.drink_section_title {
+  color: green;
+  font-size: 20px;
+  line-height:0;
+}
+
+div.drink_section_inner {
+
 }
