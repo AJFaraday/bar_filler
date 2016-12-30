@@ -73,3 +73,23 @@ h2.drink_section_title {
 div.drink_section_inner {
 
 }
+
+/* stores */
+
+div.store_section {
+  position: relative;
+  width: 50%;
+  background-color: lightpink;
+  overflow: auto;
+  padding: 10px;
+}
+
+h2.store_section_title {
+  color: red;
+  font-size: 20px;
+  line-height:0;
+}
+
+div.store_section_inner {
+
+}
